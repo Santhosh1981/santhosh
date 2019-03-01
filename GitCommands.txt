@@ -1,0 +1,419 @@
+    1  git --version
+    2  git config --global user.email “sancit7.gmail.com”
+    3  git config --global user.name “Santhosh Kumar B Siddappaji”
+    4  git config --global user.name “Santhosh Kumar B Siddappaji”
+    5  git config --global user.name "Santhosh Kumar B Siddappaji"
+    6  cat 
+    7  git --version
+    8  pwd
+    9  cd training/
+   10  cd repo1/
+   11  ls -l
+   12  ls -la
+   13  git init
+   14  ls -la
+   15  cd .git/
+   16  cd..
+   17  cd ..
+   18  vi .gitignore
+   19  git status
+   20  touch test-report.html
+   21  ls -la
+   22  git status
+   23  git add .gitignore test-report.html 
+   24  git staatus
+   25  git status
+   26  git rm --cached .gitignore 
+   27  git status
+   28  git add .gitignore 
+   29  git status
+   30  git commit -m "adding new fles to local repociotry" 
+   31  cat /users
+   32  cat /users/alchemy
+   33  cat /users/alchemy
+   34  cat c:/users/alchemy/
+   35  cat c:/users/
+   36  clear
+   37  gtiv status
+   38  gtiv status
+   39  git status
+   40  touch test.txt
+   41  git status
+   42  git -add .
+   43  git add .
+   44  gist status
+   45  git status
+   46  git rm --cached test.txt
+   47  git status
+   48  git add *
+   49  git status
+   50  git commit -m "adding nex test.txt file into LR"
+   51  git status
+   52  vi test.txt 
+   53  git status
+   54  git -am "commiting modified file directly from LWD into Lr"
+   55  git commit -am "commiting modified file directly from LWD into Lr"
+   56  vi test.txt 
+   57  git status
+   58  git add *
+   59  git status
+   60  git checkout -- test.txt
+   61  git status
+   62  git rm --cached *
+   63  git status
+   64  git checkout -- *
+   65  git status
+   66  git add *
+   67  git status
+   68  git commit -am 
+   69  git commit -m "add new file "
+   70  git status
+   71  git log
+   72  git log -
+   73  git log -f
+   74  git -f log
+   75  git --help
+   76  git show
+   77  git log show
+   78  git log -p
+   79  it rest fa0964c45a5d8291282b41befeb64d83f90c3441
+   80  git rest fa0964c45a5d8291282b41befeb64d83f90c3441git gititgit clear
+   81  gitgexit
+   82  clear
+   83  exit
+   84  git branch
+   85  cd training/repo1/
+   86  git branch
+   87  git branch local-branch
+   88  git branch
+   89  git chekout local-branch
+   90  git checkout local-branch
+   91  git branch
+   92  git log 
+   93  clear
+   94  touch file1
+   95  git add .
+   96  git commit -m "new file in to local branch"
+   97  git status
+   98  git log
+   99  git checkout master
+  100  git checkout local-branch 
+  101  git checkout master
+  102  git checkout branch-2 -b
+  103  git checkout -b branch-2
+  104  git checkout master
+  105  git branch branch-2
+  106  git checkout branch-2
+  107  git log -p
+  108  git checkout master
+  109  echo "master :: 407" >> test.txt 
+  110  git status
+  111  git commit -am "echo text into test.txt"
+  112  git status
+  113  ls -la
+  114  git branch
+  115  echo "master :: 111" >> new-file.txt
+  116  git add .
+  117  git commit -m "added new file into master"
+  118  git checkout branch-2
+  119  git merge master
+  120  git checkout local-branch 
+  121  git merge mater
+  122  git merge master
+  123  echo "local-branch :: 111" >> new-file.txt
+  124  git commit -am "updated local-branch new file"
+  125  git checkout master
+  126  echo "master :: 112" >> new-file.txt
+  127  git commit -am "updated ne-file in master"
+  128  git merge local-branch 
+  129  git commit -am "fixing conflicts"
+  130  git checkout local-branch 
+  131  git merge master
+  132  exit
+  133  ls 
+  134  cd training/repo1/
+  135  git checkout master
+  136  git branch -d local-branch 
+  137  git status
+  138  git tag VER.1.0
+  139  git tag
+  140  git checkout VER.1.0
+  141  cd training/repo1/
+  142  cd ..
+  143  mkdir repo2
+  144  cd repo2
+  145  git init
+  146  echo "28/2/2019 :: New file" >> new-file.txt
+  147  git status
+  148  git add -m "adding new file" 
+  149  git add -m "adding new file" .
+  150  git add -m "adding new file" --all
+  151  git add -m .
+  152  git add .
+  153  git status
+  154  git commit -m "addding new file" .
+  155  git status
+  156  git branch
+  157  git branch branch1
+  158  git checkout branch1
+  159  echo "branch1 :: 1" >> new-file.txt 
+  160  git commit -am .
+  161  git status
+  162  git checkout master
+  163  echo "target/" >> .gitignore
+  164  git status
+  165  git commit -m "adding ignore file" 
+  166  git add . 
+  167  git commit -m "adding ignore file" 
+  168  git chekout -b branch2
+  169  git checkout -b branch2
+  170  gti checkout master
+  171  git checkout master
+  172  echo "master : 1" new-file.txt 
+  173  git commit -am "updting new file in master"
+  174  git status
+  175  tail new-file.txt 
+  176  vi new-file.txt 
+  177  echo "master :: 1 " >> new-file.txt 
+  178  git commit -am "updating new file in master" .
+  179  git commit -am "updating new file in master"
+  180  git checkout branch2
+  181  git merge master
+  182  git log -p
+  183  git checkout master
+  184  git merge branch1
+  185  vie new-file.txt 
+  186  exit
+  187  cd training/
+  188  cd repo2/
+  189  cd ..
+  190  ls -l
+  191  cd github-training/
+  192  cd ..
+  193  cd repo2
+  194  git branch
+  195  git checkout rebase-demo 
+  196  echo "review demo" >> new-file.txt 
+  197  git commit -am "REview demo"
+  198  git push origin rebase-demo 
+  199  echo "review demo" >> new-file.txt 
+  200  git commit -am "REview demo"
+  201  git commit -am "REview demo"
+  202  echo "echo after merge demo" >> new-file.txt 
+  203  git commit -am "REview demo"
+  204  git push origin rebase-demo
+  205  git checkout master
+  206  echo "master update after merge demo" >> new-file.txt 
+  207  git commit -am "master update after merge"
+  208  git push origin master
+  209  git pull origin master
+  210  tail new-file.txt 
+  211  vi new-file.txt 
+  212  git status
+  213  git push origin master
+  214  git pull origin master
+  215  clear
+  216  tail new-file.txt 
+  217  git add .
+  218  git statu
+  219  git status
+  220  tail push.txt
+  221  git statu
+  222  git merge --abort
+  223  git pull origin 
+  224  git pull origin master
+  225  vi new-file.txt 
+  226  git pull origin master
+  227  git add new-file.txt 
+  228  git pull origin master
+  229  git commit -am "Pull"
+  230  echo "test fro conlft pull request" >> new-file.txt 
+  231  git add .
+  232  git commit -am "modification for conlfict merge"
+  233  git push origin master
+  234  git checkout rebase-demo 
+  235  echo "update for new pull request from branch " >> new-file.txt 
+  236  git commit -am "update for new pull request from branch"
+  237  git push origin rebase-demo 
+  238  git pull
+  239  echo "rebase :: test resolve conlict from local" >> new-file.txt 
+  240  git commit -am "REbase :: test to resolve conflit "
+  241  git push origin rebase-demo 
+  242  git merge origin/rebase-demo 
+  243  vi new-file.txt 
+  244  git commit -am "resolvin conflict"
+  245  git push origin rebase-demo 
+  246  git checkout master
+  247  git pull origin master
+  248  echo "changes from master to resolve conflict" >> new-file.txt 
+  249  git commit -am "changes from master to test "
+  250  git push origin master
+  251  git push origin master
+  252  history
+  253  cat mster
+  254  cat new-file.txt 
+  255  git checkout rebase-demo 
+  256  cat new-file.txt 
+  257  git push origin rebase-demo 
+  258  git pull origin rebase-demo 
+  259  git checkout master
+  260  git pull origin master
+  261  echo "secont test for ocvnflit frommaster" >> new-file.txt 
+  262  git commit -am "second test froconlficty from master"
+  263  git push origin master
+  264  git checkout rebase-demo 
+  265  echo "secont test for ocvnflit fromrebase" >> new-file.txt 
+  266  git commit -am "second test froconlficty from rebase"
+  267  git push origin rebase-demo 
+  268  git merge master
+  269  vi new-file.txt 
+  270  git commit -am "resolf seconf conflict from bracnh"
+  271  git push origin rebase-demo 
+  272  git checkout master
+  273  git pull origin master
+  274  vi new-file.txt 
+  275  exit
+  276  cd training/repo2/
+  277  git checkout rebase-demo 
+  278  echo "rebase-demo :: stashing...." >> new-file.txt 
+  279  git status
+  280  git statsh
+  281  git stash
+  282  git status
+  283  cat new-file.txt 
+  284  echo "rebase-demo :: updating after stash" >> new-file.txt 
+  285  git commit -am "Rebase-Demo :: Updaing after stash"
+  286  git push origin rebase-demo 
+  287  git status
+  288  git stash pop
+  289  vi new-file.txt 
+  290  git status
+  291  git commit -am "Rebase-Demo :: Updaing after pull from stash"
+  292  git push origin rebase-demo 
+  293  git stash
+  294  git status
+  295  git log
+  296  q
+  297  git git 
+  298  exit
+  299  ccd training/repo2
+  300  cd training/repo2
+  301  git log
+  302  git revert cadde0805fa0ee73b222953a76143f7602dc7d23
+  303  git revert ded04f91ec7c28b3888dc88831d126c3e40ff43f
+  304  git status
+  305  cat new-file.txt 
+  306  git rm -chached new-file.txt 
+  307  git rm --chached new-file.txt 
+  308  git rm new-file.txt 
+  309  git status
+  310  git checkout 
+  311  git status
+  312  git rm chached new-file.txt
+  313  git rm --chached new-file.txt
+  314  git rm --cached new-file.txt
+  315  git status
+  316  git log
+  317  git commit -m "deleting file"
+  318  git status
+  319  git log
+  320  git revert 7514c77acb07c8ddcfe882a099000593d7212a75^..848a7912b2c75a97fa37c3284874c744226e6a89
+  321  ls
+  322  git log
+  323  cat new-file.txt 
+  324  echo "remvoe from statge" >> new-file.txt 
+  325  git status
+  326  git rm --cached new-file.txt 
+  327  git status
+  328  git commit -m "delete"
+  329  git log
+  330  git revert 7514c77acb07c8ddcfe882a099000593d7212a75^..1e382d06da10982e32bcc31634c8374ec6c64f9d
+  331  git status
+  332  git add new-file.txt 
+  333  git status
+  334  cat new-file.txt 
+  335  git commit -am "a"
+  336  git status
+  337  git tag V.2 
+  338  git checkout V.2
+  339  echo "tbtj nj " >> new-file.txt 
+  340  git commit -am "a"
+  341  git checkout master
+  342  git log
+  343  git checkout -b 75a3b8aa050021a08ca3730e2ad672f4d373a2df
+  344  git barnch -m 75a3b8aa050021a08ca3730e2ad672f4d373a2df branch3
+  345  git barnch -m 75a3b8aa050021a08ca3730e2ad672f4d373a2df branch4
+  346  git branch -m 75a3b8aa050021a08ca3730e2ad672f4d373a2df branch3
+  347  git log
+  348  cat new-file.txt 
+  349  git checkout master
+  350  ls
+  351  git log
+  352  git --help branch
+  353  git log
+  354  git branch branch4 3cf54e35f64cc67ffe95cdc54e49bf6f33ce85e0
+  355  git log
+  356  git branch
+  357  git branch -d branch3
+  358  git branch
+  359  git log
+  360  git branch
+  361  clear
+  362  history
+  363  histry >> Git-Coomads.txt
+  364  history >> Git-Coomads.txt
+  365  git status
+  366  git checkout master
+  367  git checkout
+  368  gity status
+  369  ssh-keygen.exe
+  370  ssh-keygen.exe
+  371  git remote -v
+  372  git remote set-url origin git@github.com:Santhosh1981/santhosh.git
+  373  git remote
+  374  git remote -v
+  375  git remote set-url origin https://github.com/Santhosh1981/santhosh.git
+  376  git remote -v
+  377  git status
+  378  rm santhoshKey
+  379  rm santhoshKey
+  380  rm santhoshKey.*
+  381  git status
+  382  git add .
+  383  git commit -m "git commands"
+  384  git push origin master
+  385  git log
+  386  git revert 1bbb959d168f4a6c0c3602f3235d5ce84670b3cf^..e33d7c36a4bebb54d572dd41ac575be41ab983e6
+  387  git revert e33d7c36a4bebb54d572dd41ac575be41ab983e6
+  388  git log
+  389  git status
+  390  git status
+  391  git checkout branch2
+  392  echo "passwrord change" >> new-file.txt 
+  393  git commit -am "password change"
+  394  git push origin branch2
+  395  q
+  396  git remote set-url git@github.com:Santhosh1981/santhosh.git
+  397  q
+  398  git remote set-url origin git@github.com:Santhosh1981/santhosh.git
+  399  git remote -v
+  400  git status
+  401  git push origin branch2
+  402  cat new-file.txt 
+  403  echo "Password reset 2" >> new-file.txt 
+  404  git commit -am "Password reset 2"
+  405  git status
+  406  git push origin branch2
+  407  git checkout master
+  408  echo "Her you go for featch" >> new-file.txt 
+  409  git commit -am "Here you go gor fatch"
+  410  git pudh origin master
+  411  git status
+  412  git push origin master
+  413  echo "Her you go for featch2" >> new-file.txt 
+  414  git commit -am "Here you go gor fatch2"
+  415  git push origin master
+  416  git branch
+  417  git branch -r
+  418  git checkout master
+  419  history >> GitCommands.txt
